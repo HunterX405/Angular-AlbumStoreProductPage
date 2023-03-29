@@ -11,7 +11,7 @@ import { ProductTracklistingComponent } from './product-tracklisting/product-tra
 import { ProductListComponent } from './product-list/product-list.component';
 
 const appRoutes: Routes = [
-  { path: '', redirectTo: 'products', pathMatch:'full' }
+  { path: '', redirectTo: 'products', pathMatch:'full' },
   { path: 'products', component: ProductListComponent },
   { path: 'products/:id', component: ProductPageComponent},
 ];
